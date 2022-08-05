@@ -1,0 +1,116 @@
+*::before,
+*::after{
+    margin: 0px;
+    padding: 0;
+    box-sizing: inherit;
+    width: 1440px;
+    height: 6389px;
+    left: 546px;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 0 2rem;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header .img-logo img{
+    width: 30px;
+    height: 100%;
+    padding-left: 60px;
+}
+.header .nav-bar a{
+    padding: 15px;
+    width: 54px;
+    height: 27px;
+    font-family: 'Sofia', cursive;
+    font-size: 20px;
+    line-height: 27px;
+    color: #2C3847;
+}
+.header .nav-icons img{
+    float: right;
+    /* padding-right: 15px; */
+    padding: 15px;
+}
+.header img{
+    width: 30px;
+    height: 30px;
+    padding-right: 10px;
+}
+.btn{
+    width: 140px;
+    height: 40px;
+    top: 40px;
+    left: 1212px;
+    border-radius: 27px;
+    background-color: #494949;
+    display: inline-block;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+.header .nav-btn a{
+    color: #fff;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    /* text-align: center; */
+}
+.header-contents{
+    height: 990px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 90px;
+    width: 596px;
+    height: 285px;
+    text-align: left;
+}
+.header-contents h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color:#333333;
+    
+}
+.header-contents span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color:#5FB848;
+    
+}
+.header-contents p{
+    font-size: 20px;
+}
+.header-content .btn{
+    background-color: #5FB848;
+}
+.header-content .btn a{
+    color: #fff;
+    line-height: 27px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.header-content img{
+    padding-top: 0px;
+    float: left;
+    width: 750px;
+    height: 562px;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
