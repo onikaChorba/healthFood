@@ -76,6 +76,8 @@ body{
 .header-content .content{
    padding-left: 135px;
    padding-top: 130px;
+   max-width: 600px;
+   max-height: 285;
 }
 .header-content .content h1{
     font-family: 'Poppins', sans-serif;
@@ -116,4 +118,59 @@ body{
     height: 460px;
     padding-top: 100px;
     border-radius: 115px;
+    padding-right: 130px;
+}
+
+.choose{
+    font-family: 'Poppins', sans-serif;
+}
+.choose h2{
+    font-size: 30px ;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.choose h2 span{
+    font-size: 30px ;
+    line-height: 33px;
+    text-align: center;
+    color: #5FB848;
+    font-style: normal;
+}
+.choose p{
+    font-size: 24px ;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.choose .content-box{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.choose .content-box img{
+    width: 100px;
+}
+.choose .content-box .easy-order h3,
+.choose .content-box .life-order h3,
+.choose .content-box .organic h3{
+    font-size: 20px;
+    color: #5FB848;
+    line-height: 35px;
+}
+.choose .content-box .easy-order p,
+.choose .content-box .life-order p,
+.choose .content-box .organic p{
+    font-size: 18px;
+    line-height: 20px;
+    color: #ffff;
+    opacity: 70%;
+    margin: 15px;
+    padding-bottom: 60px;
 }
